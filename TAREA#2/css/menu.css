@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+
+
+/* LOGO */
+
+.nav-branding {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Espacio entre el logo y el texto */
+  font-size: 24px; /* Ajusta según tu diseño */
+  font-weight: bold;
+  text-decoration: none;
+  color: #000;
+}
+
+.nav-logo {
+  height: 70px; /* Ajusta el tamaño del logo */
+  width: auto;
+  border-radius: 50%
+}
+
+/* carrito */
+
+i {
+    font-size: 1.5rem;
+    margin: 5px;
+    border-radius: 2%;
+    padding: 10px 10px;
+    border-radius: 50%;
+    background-color: black;
+    color: whitesmoke;
+}
+
+/* Menu */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: whitesmoke;
+    position: relative;
+    z-index: 1000;
+}
+
+li {
+    list-style: none;
+}
+
+.navbar {
+    min-height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+
+    a {
+        text-decoration: none;
+        color: #333333;
+        font-family: "Lexend Giga", serif;
+        font-weight: 400;
+        transition: 0.5s linear;
+        font-size: 1.10rem;
+        padding: 015px;
+    }
+
+    a:hover {
+        color:#C07F5F;
+    }
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0px;
+    font-size: 1.150rem;
+}
+
+.nav-branding {
+    font-size: 2rem !important;
+    font-weight: 900;
+    font-family: "Lexend Giga", serif;
+}
+
+.nav-link{
+   transition: 0.7s ease;
+}
+
+.nav-link:hover{
+    color: rgb(63, 69, 75);
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: whitesmoke;
+}
+
+.bar:hover {
+    background-color: #196681;
+}
+
+
+@media(max-width: 768px){
+    .hamburger {
+        display: block;
+    }
+
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        gap: 0;
+        flex-direction: column;
+        background-color: black;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+
+        a:hover {
+            color: #196681;
+            text-decoration: underline;
+        }
+
+    }
+
+    .nav-item {
+        margin: 16px 0;
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+    
+}
+
+
+/* /* Drop Down menu */
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: whitesmoke;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Footer */
+
+/* footer */
+footer {
+    background-color: whitesmoke;
+}
+
+.footerContainer {
+    color: black;
+    border-top: 0.1px black solid;
+
+    ul {
+        padding: 0;
+    }
+
+    li, p {
+        font-size: 1rem;
+        font-family: "Lexend Giga", serif;
+    }
+
+    h4 {
+        font-family: "Lexend Giga", serif;      
+    }
+
+    i {
+        padding-right: 0.5rem;
+        font-size: 1.15rem;
+    }
+
+
+}
+
+.footerMenu a {
+    text-decoration: none;
+    color: black;
+}
+
+.footerMenu a:hover {
+    background-color: #C07F5F;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.social-icons a {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 24
+    px;
+    transition: background-color 0.3s;
+}
+
+.social-icons a:hover {
+    background-color: #C07F5F;
+}

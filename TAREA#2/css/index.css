@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+    background-image: url(/imagenes/mueble20.jpg);
+    height: 100vh;
+    margin: 0;
+    background-size: cover;
+    background-position: center;
+    position: relative; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.cuadro1 {
+    font-family: "Lexend Giga", serif;
+    margin: 30px; /* Puedes ajustar el valor */
+    width: 1000px !important;
+    height: 900px;
+    background-color:rgba(0, 0, 0, 0.358);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    border-radius: 2%;
+
+    img {
+        border-radius: 50%;
+    }
+
+    a {
+        height: 100%;
+        color: whitesmoke;
+        border: 2px rgba(255, 255, 255, 0.68); 
+        background-color: rgba(255, 255, 255, 0.267);
+    }
+
+}
+
+
+/* h1 {
+    font-family: "Lexend Giga", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+} */

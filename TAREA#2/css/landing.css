@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-image: url("/imagenes/mueble1.jpg");
+    height: 100vh;
+    margin: 0;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+img {
+    border-radius: 50%
+}
+
+body::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.582);
+    pointer-events: none;
+    z-index: -1;
+}
+
+.text-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Lexend Giga", serif;
+    font-weight: 800;
+    color: white;
+    padding-top: 2rem;
+
+    h1 {
+        font-size: 6rem;
+    }
+
+    h2 {
+        font-size: 1rem;
+        font-weight: 290;
+    }
+    
+}
+
+.buttonsrow {
+    display: flex;
+    justify-content: center; 
+    gap: 10px;
+    margin-bottom: 20px;  
+}
+
+.buttons button {
+    width: auto;
+    margin: 10px;
+}
+
+.iconsrow {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.iconbox {
+    display: inline-block;
+    padding: 10px;
+}
+
+.iconsrow i {
+    font-size: 3rem; 
+    color: white;  
+}

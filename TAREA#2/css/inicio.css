@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    font-family: "Lexend Giga", serif;
+}
+
+
+.promoMsj {
+    background-color: black;
+    font-family: "Lexend Giga", serif;
+    font-weight: 400;
+    height: 3rem;
+}
+
+.animate__infinite {
+    animation-iteration-count: infinite;
+  }
+
+
+.carousel-item img {
+    max-height: 600px;
+    object-fit: cover;
+}
+
+.categorybox {
+    padding: 50px;
+    border: 2px solid black; 
+    border-radius: 5%;
+    margin: 10px;
+    background-color: white;
+
+}
+
+
+.categoriesection {
+    background-color: white;
+}
+
+/* Mapa */
+
+.mapTitleContainer h3{
+    font-family: "Lexend Giga", serif;
+    font-size: 2rem;
+    color: black;
+}
