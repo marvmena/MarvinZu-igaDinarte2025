@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  font-family: "Lexend Giga", serif !important;
+  font-size: 15px !important;
+}
+
+.inputs {
+    width: 60%; 
+    max-width: 600px; 
+    margin: 0 auto; 
+}
+
+#imagen {
+    height: 400px;
+}

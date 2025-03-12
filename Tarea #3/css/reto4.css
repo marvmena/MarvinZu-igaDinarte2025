@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+    background-color: #001A36;
+    color: whitesmoke;
+    font-family: "Lexend Giga", serif;
+    font-size: 15px;
+    
+}
+
+
+/* Select */
+
+.selectform {
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+}
+
+
+
+.form-select {
+
+    width: 500px;
+
+}
+
+/* imagenes */
+
+#output-img {
+    display: flex;
+    max-width: 600px;
+    flex-direction: column;
+    justify-content: center;  
+    align-items: center;    
+    margin: 0 auto;          
+}
+
+#output-txt {
+    max-width: 600px;   
+    width: 100%;        
+    margin: 0 auto;     
+    padding: 10px;     
+    text-align: center; 
+}

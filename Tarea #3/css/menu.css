@@ -1,0 +1,13 @@
+.navbar {
+    background-color: whitesmoke !important;
+}
+.navbar-brand {
+    font-weight: bold !important;
+}
+.nav-link {
+    color: #333 !important; /* Color del texto */
+}
+.nav-link:hover {
+    color: #007bff !important; /* Color al pasar el mouse */
+}
+

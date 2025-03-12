@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  font-family: "Lexend Giga", serif !important;
+  font-size: 15px !important;
+}
+
+.titleBox {
+    background-color: #08285B;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+.banner {
+    background-image: url("/imagenes/reto3/banner1.jpg");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.sectionBox {
+    background-color: #08285B;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    height: 80px;
+
+    select {
+        width: 320px;
+    }
+}
+
+.footer {
+    background-color: #08285B;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+    font-family: "Lexend Giga", serif;
+    font-size: 15px !important;
+    background-color: black;
+    color: #ecf0f1;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos de la navbar */
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.navbar {
+    background-color: whitesmoke !important;
+    padding: 10px;
+}
+
+.navbar-brand {
+    font-weight: bold !important;
+}
+
+.nav-link {
+    color: #333 !important;
+}
+
+.nav-link:hover {
+    color: #007bff !important;
+}
+
+/* Ajustes para el contenido principal */
+main {
+    margin-top: 80px; /* Ajusta el margen superior para evitar que la navbar lo tape */
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilos de los formularios */
+input, select, button {
+    width: 100%;
+    max-width: 400px;
+    margin: 5px 0;
+    padding: 10px;
+    font-size: 10px;
+    border: 1px solid #3498db;
+    border-radius: 5px;
+    background-color: #ecf0f1;
+    color: #333;
+    outline: none;
+}
+
+select {
+    margin-top: 20px;
+}
+
+button {
+    background-color: #3498db;
+    color: #ecf0f1;
+    cursor: pointer;
+    transition: background 0.3s;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+hr {
+    border: 1px solid #3498db;
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+#resultado {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ecf0f1;
+    text-align: center;
+}
+
+#formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
