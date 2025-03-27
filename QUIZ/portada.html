@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video de Fondo</title>
+
+    <!-- Agregar Bootstrap desde CDN -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+
+    @import url('https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+    * {
+    font-family: "Lexend Giga", serif !important;
+}
+
+        /* Aseguramos que todo ocupe la pantalla */
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Contenedor para el video y el contenido */
+        .full-screen-container {
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+
+        /* Estilos para el video de fondo */
+        #video-fondo {
+            position: absolute; /* Coloca el video detrás del contenido */
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Hace que el video cubra todo el fondo sin distorsionarse */
+            z-index: -1; /* Asegura que el video quede atrás */
+        }
+
+        /* Estilos para el contenido centrado */
+        .contenido {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%); /* Centra el contenido */
+            color: white;
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.64); /* Fondo semitransparente para mejorar visibilidad */
+            border-radius: 8px; /* Opcional */
+        }
+
+        h1 {
+            font-size: 2.5rem;
+        }
+
+        p {
+            font-size: 1.2rem;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Contenedor que incluye el video y el contenido -->
+    <div class="full-screen-container">
+        <!-- Video de fondo -->
+        <video id="video-fondo" autoplay muted loop>
+            <source src="videos/1.mp4" type="video/mp4">
+            Tu navegador no soporta el elemento de video.
+        </video>
+
+        <!-- Contenido centrado -->
+        <div class="contenido">
+            <h1>Marvin Leonardo Zuñiga Dinarte <br></h1>
+            <p>Hablemos del <a href="tour.html">bossanova.</a></p>
+        </div>
+    </div>
+
+    <!-- Agregar Bootstrap JS y dependencias desde CDN -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>

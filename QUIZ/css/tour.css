@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Lexend Giga", serif !important;
+    font-size: 15px !important;
+    font-weight: 400 !important;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/*tamaño inicial foto 360*/
+
+#panorama-container {
+    width: 1300px;
+    height: 700px;
+    margin: 0 auto;
+    background-position: center;
+}
+
+
+header {
+    width: 100%;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+/* Estilo CSS para los infospots */
+.infospot-style {
+    background-color: rgba(0, 0, 139, 0.64); /* Color de fondo */
+    color: #fff; /* Color de texto */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px; /* Espaciado interno */
+    font-size: 14px; /* Tamaño de texto */
+    width: 200px; /* Ancho del cuadro */
+    text-align: center; /* Alinear el texto al centro */
+}
+
+/* Personalización adicional de las animaciones o efectos */
+.infospot-style:hover {
+    background-color: rgba(0, 0, 255, 0.8); /* Cambio de color al hacer hover */
+    cursor: pointer; /* Cursor de mano */
+}
