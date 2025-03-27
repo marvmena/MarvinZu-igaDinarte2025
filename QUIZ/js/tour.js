@@ -118,7 +118,7 @@ infospot1_6.addHoverText('Visite la panoramica #1', -10);
 
 // Crear un iframe para incrustar el video de YouTube
 infospot1_6.element.innerHTML = `
-    <div style="background-color: rgba(0, 0, 139, 0.64); color:#fff; border-radius: 5px; padding: 10px; font-size: 16px; width: 200px; display: flex; justify-content: center; align-items: center;">
+    <div style="background-color: rgba(0, 0, 139, 0.64); color:#fff; border-radius: 5px; padding: 60px; font-size: 16px; width: 700px; display: flex; justify-content: center; align-items: center;">
         <iframe width="1000" height="415" src="https://www.youtube.com/embed/Gv6QsYB58cQ?si=Pk3i9SD9PEXCqkDT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
 `;
